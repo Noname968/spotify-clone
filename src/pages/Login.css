@@ -1,0 +1,20 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.img1{
+    max-width: 90%;
+}
+.alogin{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+}

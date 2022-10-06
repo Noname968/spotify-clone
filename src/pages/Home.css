@@ -1,0 +1,7 @@
+.con1{
+    display: flex;
+    background-color: black;
+}
+::-webkit-scrollbar{
+    display: none;
+}

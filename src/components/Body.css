@@ -1,0 +1,97 @@
+.body {
+  height: 602px;
+  margin: 0 8px 0 0px;
+  background-color: #121212;
+  border-radius: 10px;
+  color: #b3b3b3;
+  width: 83%;
+  /* background: linear-gradient(transparent,rgb(114, 119, 255)); */
+  background: linear-gradient(#513a97, #564880, #161616, #121212);
+  overflow: scroll;
+}
+.banner {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.biglike {
+  box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+  width: 220px;
+  height: 220px;
+  margin: 0 20px 0 35px;
+}
+.infotext {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.userinfo {
+  display: flex;
+  align-items: center;
+}
+.userimg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+}
+.name {
+  margin: 0 5px 0 0;
+}
+.blanka {
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px 3px 0 3px;
+}
+h1 {
+  margin: 0px 0px 0.15em 0;
+  font-size: 4rem;
+}
+strong {
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+/* .total::after{
+    content: ",";
+} */
+.play {
+  font-size: 4rem;
+  color: #1ed760;
+  height: 90px;
+  margin: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 1)) !important;
+}
+.playb {
+  margin: 20px;
+  cursor: pointer;
+}
+.playb:hover {
+  transition: 200ms ease-in-out;
+  transform: scale(1.1);
+}
+.i {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+.more {
+  margin-top: 12px;
+}
+.gridcont {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  color: #b3b3b3;
+  height: 36px;
+  display: grid;
+  grid-template-columns: 16px 6fr 4fr 3fr minmax(120px, 1fr);
+  grid-gap: 16px;
+  margin: 8px 0px 8px 36px;
+  padding: 0 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.songs {
+  background: #121212;
+}

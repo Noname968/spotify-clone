@@ -1,0 +1,89 @@
+.gridcon{
+    color: #b3b3b3;
+    height: 56px;
+    display: grid;
+    grid-template-columns:  16px 6fr 4fr  3fr  minmax(120px,1fr);
+    grid-gap: 16px;
+    margin: 8px 0px 8px 36px;
+    padding: 0 32px;
+    font-weight: 500;
+    align-items: center;
+}
+.gridcon:hover{
+    background-color: hsla(0,0%,100%,.1);
+    border-radius: 4px;
+}
+.gridcon:hover > .iname > .det > .art{
+    color: white;
+}
+.trackname{
+    color: white;
+    white-space: nowrap;
+    width: 370px;
+    overflow:hidden ;
+    text-overflow: ellipsis;
+}
+.trackname:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.iname{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imgtrack{
+    width: 44px;
+    height: 44px;
+    margin-right: 16px;
+}
+.art{
+    font-size: 12px;
+}
+.art::after{
+    content: "  ";
+}
+.art:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.album{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.album:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gridcon:hover > .album{
+    color: white;
+}
+.smalllike{
+    fill: #1ed760 !important;
+    margin-right: 10px;
+}
+.smalllike:hover{
+    cursor: pointer;
+}
+.dateconn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeconn{
+    display: flex;
+    align-items: center;
+}
+.time{
+    margin-right: 20px;
+}
+.moretime{
+    visibility: hidden;
+}
+.gridcon:hover > .timeconn > .moretime{
+    visibility:visible;
+}
+.moretime:hover{
+    cursor: pointer;
+}

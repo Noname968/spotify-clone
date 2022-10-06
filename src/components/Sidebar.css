@@ -1,0 +1,58 @@
+.sidebar{
+    /* border: 2px solid black; */
+    height: 602px;
+    width: 16%;
+    margin: 0 8px 0 10px;
+    background-color: #121212;
+    border-radius: 10px;
+    color: #b3b3b3;
+}
+.sidecon{
+    margin: 10px;
+}
+.ic1{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.micons{
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+}
+.i1{
+    margin: 10px;
+}
+.i2{
+    margin: 10px;
+}
+.i3{
+    margin: 10px;
+}
+.p{
+    margin-left: 5px;
+}
+.ic1:hover{
+    color: white;
+    transition: all 200ms ease-in;
+}
+.blank{
+    margin: 10px;
+    border-bottom: 0.25px solid #b3b3b3;
+}
+.ptit{
+    margin: 10px;
+    color: white;
+}
+.playlist{
+    margin: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.playlist:hover{
+    color: white;
+    transition: all 200ms ease-in;
+
+}

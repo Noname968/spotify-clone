@@ -1,0 +1,72 @@
+.navbar{
+    height: 65px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logocon{
+    margin: 0 12px;
+}
+.spotifylogo{
+    width: 32px;
+    height: 32px;
+}
+.ahome{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #242424;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.homelogo{
+    color: rgb(239, 235, 235);
+}
+.midcon{
+    display: flex;
+}
+.input{
+    background-color: #242424;
+    color: #fff!important;
+    height: 48px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 30px;
+}
+.searchicon{
+    margin: 0 10px 0 2px;
+}
+.inputsearch{
+    background-color: #242424;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: white;
+    font-size: 0.875rem;
+}
+.inputsearch::placeholder{
+    color: #b3b3b3;
+}
+.avatarcon{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #242424;
+    margin-right: 10px;
+}
+.avataricon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
